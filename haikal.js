@@ -3714,7 +3714,6 @@ dwhe = await getBuffer(`https://raku-web.herokuapp.com/api/bokep?apikey=RakuKeyT
 haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `Nih Bokep Nya` }, { quoted: m })
 }
 break
-
 case 'tiktok': case 'tiktoknowm':
 if (isBan) throw sticBanLu(from)
 if (!q) return reply(`Link Nya Kak`)
