@@ -124,11 +124,11 @@ haikal.ev.on('group-participants.update', async (anu) => {
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
                                 if (anu.action == 'add') {
-                    haikal.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `SELAMAT DATANG DI GRUP ${metadata.subject} @${num.split("@")[0]}
+                    haikal.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}
 
-Description: ${metadata.desc}`} )
+Description : ${metadata.desc}`} )
                 } else if (anu.action == 'remove') {
-                    haikal.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} KELUAR DARI GRUP ${metadata.subject}` })
+                    haikal.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
                 }
             }
         } catch (err) {
