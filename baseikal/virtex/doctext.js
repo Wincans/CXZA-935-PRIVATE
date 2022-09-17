@@ -1,4 +1,4 @@
-const doctext = `🔥 CXZA 935 🔥
+const doctext = `CXZA 935 WAS HERE 
 
 
 *~🦠.🦁.*~20~*🪱*~.*80.*
