@@ -20,20 +20,20 @@ global.linkpro = 'mailto:support@whatsapp.com?subject=Deactivate%20My%20Account%
 global.email = 'Cxza-935@gmail.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'KHAZE WAS HERE' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = 'KHAZE WAS HERE' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = 'KHAZE WAS HERE' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'Cxza 935' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = 'Cxza 935' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = 'Cxza 935' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
-global.owner = ['6289516141144']
-global.packname = 'KHAZE'
-global.ownerr = ['KHAZE WAS HERE']
-global.author = 'WAS HERE'
+global.owner = ['6283149877456']
+global.packname = 'Cxza'
+global.ownerr = ['Cxza 935']
+global.author = '935'
 global.sessionName = './sessionye/haikal'
 global.prefa = ['','!','.',',','🐤','🗿']
 global.sp = '⭔'
 global.mess = {    
-    wait: 'Wait..',
+    wait: 'Waiting....',
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
 }
