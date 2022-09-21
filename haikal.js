@@ -5031,10 +5031,9 @@ await m.reply(`Succes`)
 }
 break
 case 'troli3': {
-if (!isCreator) return
+if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (isBan) throw sticBanLu(from)
-if (!isRegistered) return replyReg(mess.verif)
-if (args.length == 0) return m.reply(`Jumlahnya?`)
+if (args.length == 0) return m.reply(`Jumlah?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
 a = await haikal.sendMessage(m.chat, {react: {  key: { remoteJid: m.chat, fromMe: true, id : m.key.id}}})
