@@ -4083,7 +4083,7 @@ Hay Kak ${pushname} 👋 Selamat ${salam}
 ├❒ bugdocu > jumlah
 ├❒ bugkontakv2 > jumlah
 ├❒ bugdocument > jumlah
-├❒ bugtroliv3 > jumlah
+├❒ cxzatroli > jumlah
 ├❒ bugbuttonv1 > jumlah
 ├❒ bugbuttonv2 > jumlah
 ├❒ buglivelocv2 > jumlah
@@ -5041,7 +5041,7 @@ let dok = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {
 	var troli2 = generateWAMessageFromContent(m.chat,{
 	"orderMessage": {
 	"orderId": "599519108102353",
-	"thumbnail": virgam,
+	"thumbnail": thumb,
 	"itemCount": 1999,
 	"status": "INQUIRY",
 	"surface": "CATALOG",
@@ -5094,7 +5094,7 @@ jpegThumbnail: fs.readFileSync(`./pict.jpg`),
 haikal.relayMessage(m.chat, pc.message, { messageId: pc.key.id,})
 }
 break
-case 'bugtroliv3':
+case 'cxzatroli':
 if (!mek.key.fromMe) return reply('Fitur Khusus Owner!')
 if (args.length == 0) return m.reply(`Jumlah?`)
 jumlah = `${encodeURI(q)}`
